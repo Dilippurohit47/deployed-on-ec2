@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
   res.send("Hello World from dilip with cors ");
 });
 
+app.get("/name", (req, res) => {
+  res.send("my name is dilip ");
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });

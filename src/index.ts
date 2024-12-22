@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/name", (req, res) => {
-  res.send("my name is dilip ");
+  res.send("my name is dilip with typescript ");
 });
 
 app.listen(PORT, () => {
